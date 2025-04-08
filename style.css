@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kumbh+Sans:wght@100..900&family=Outfit:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Kumbh Sans", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    padding: 10px;
+}
+hr{
+    margin-bottom: 80px;
+    width: 1100px;
+    margin-left: 100px;
+    border: none;
+    border: 1px solid hsla(0, 0%, 0%, 0.062);
+}
+/* .logo{
+    margin-right: 10px;
+} */
+.col{
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+    gap: 50px;
+}
+.col img{
+    height: 16px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+nav a{
+    color:  hsl(219, 9%, 45%);
+    text-decoration: none;
+}
+.all{
+    display: flex;
+}
+.ava{
+    display: flex;
+    flex-direction: end;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.ava img{
+    width: 40px;
+    height: 40px;
+}
+.ava .cart{
+    width: 20px;
+    height: 20px;
+    align-items: center;
+}
+
+.first img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    margin-left: 180px;
+}
+.second{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+.blurr{
+    position: absolute;
+    top: 735px;
+    width: 97px;
+    height: 100px;
+    background-color:  hsla(25, 100%, 94%, 0.815);
+    border: 2px solid hsl(26, 100%, 55%);
+    border-radius: 10px;
+}
+.second img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.sneaker{
+    padding: 100px;
+    margin-left: 40px;
+}
+.sneaker h5{
+    color:  hsl(219, 9%, 45%);
+}
+.sneaker h1{
+    color: hsl(220, 13%, 13%);
+    font-size: 40px;
+}
+.sneaker p{
+    color:hsl(219, 9%, 45%);
+}
+.cent{
+    display: flex;
+    gap: 20px;
+}
+.cent button{
+    background-color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 100%);
+    font-family: "Kumbh Sans", sans-serif;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+.sneaker h4{
+    color: hsl(219, 9%, 45%);
+    text-decoration: line-through;
+}
+.one{
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.one .minus{
+margin-right: 35px;
+}
+.one span{
+    margin-right: 40px;
+}
+.btn{
+    display: flex;
+    gap: 20px;
+}
+.two{
+font-weight: 700;
+font-size: 16px;
+width: 250px;
+height: 50px;
+border: none;
+text-align: center;
+border-radius: 10px;
+background-color: hsl(26, 100%, 55%);
+}
+.two img{
+    width: 15px;
+    height: 15px;
+    padding-right: 20px;
+}
